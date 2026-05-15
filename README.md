@@ -1,42 +1,58 @@
 <div align="center">
 
-<!-- ANIMATED GALAXY HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020024,30:090979,100:00d4ff&height=220&section=header&text=Yeshwanth&fontSize=75&fontColor=ffffff&fontAlignY=40&desc=Engineer%20who%20builds%20things%20that%20think%20%26%20things%20that%20move&descAlignY=60&descSize=17&animation=fadeIn&stroke=00d4ff&strokeWidth=2" width="100%"/>
+<!-- TECHY LOGO / BANNER — Mac Style Header -->
+<img src="https://raw.githubusercontent.com/the-yesh21/the-yesh21/main/assets/banner.png" width="0" height="0"/>
 
-<!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=🚀+CSE+%40+Dr.+Ambedkar+IT%2C+Bengaluru;🧠+AI+%7C+Full-Stack+%7C+Embedded+Systems;⚙️+Building+systems+that+think+%26+move;🌌+Rover+Sims+•+Legal+AI+•+Stress+Detection;💡+Visionary+Builder+%7C+Open+to+Internships" alt="Typing SVG" />
-</a>
+<!-- ANIMATED GALAXY WAVE TOP -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020024,100:00d4ff&height=160&section=header&animation=fadeIn" width="100%"/>
+
+<!-- TERMINAL / MAC STYLE LOGO BLOCK -->
+<img src="https://img.shields.io/badge/-%F0%9F%9B%B8%20ENGINEER.EXE-000000?style=for-the-badge&logo=apple&logoColor=white&labelColor=1d1d1f" height="40"/>
 
 <br/><br/>
 
-<!-- BADGES ROW -->
-<img src="https://komarev.com/ghpvc/?username=the-yesh21&label=👁️+Profile+Views&color=0891b2&style=for-the-badge" alt="profile views"/>
+<!-- MAC STYLE NAME — using Apple-inspired SF Pro feel via Google Fonts -->
+<picture>
+  <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=700&size=52&pause=99999&color=F5F5F7&center=true&vCenter=true&width=600&height=80&lines=Yeshwanth+V." alt="Yeshwanth V."/>
+</picture>
+
+<!-- SUBTITLE MAC STYLE -->
+<picture>
+  <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Text&weight=400&size=18&pause=99999&color=A1A1A6&center=true&vCenter=true&width=600&height=36&lines=Engineer+who+builds+things+that+think+%26+things+that+move." alt="subtitle"/>
+</picture>
+
+<br/>
+
+<!-- TYPING ROLES ANIMATION -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=🚀+CSE+%40+Dr.+Ambedkar+IT%2C+Bengaluru;🧠+AI+%7C+Full-Stack+%7C+Embedded+Systems;⚙️+Building+systems+that+think+%26+move;🌌+Rover+Sims+•+Legal+AI+•+Stress+Detection;💡+Visionary+Builder+%7C+Open+to+Internships" alt="Typing SVG" />
+
+<br/><br/>
+
+<!-- BADGE ROW -->
+<img src="https://komarev.com/ghpvc/?username=the-yesh21&label=Profile+Views&color=0891b2&style=for-the-badge" alt="profile views"/>
 &nbsp;
 <a href="https://github.com/the-yesh21?tab=followers">
-  <img src="https://img.shields.io/github/followers/the-yesh21?label=Followers&style=for-the-badge&color=0891b2&labelColor=020024" />
+  <img src="https://img.shields.io/github/followers/the-yesh21?label=Followers&style=for-the-badge&color=0891b2&labelColor=020024"/>
 </a>
 &nbsp;
 <a href="https://linkedin.com/in/the-yesh21">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 &nbsp;
-<img src="https://img.shields.io/badge/Status-Open%20to%20Internships-00d4ff?style=for-the-badge&logo=rocket&logoColor=white"/>
+<img src="https://img.shields.io/badge/Status-Open%20to%20Internships-00d4ff?style=for-the-badge&logoColor=white"/>
 
 </div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ---
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
 
 ## 🌌 About Me
 
 ```python
 class Yeshwanth:
     def __init__(self):
-        self.name         = "Yeshwanth"
+        self.name         = "Yeshwanth V."
         self.college      = "Dr. Ambedkar Institute of Technology, Bengaluru"
         self.degree       = "B.E. Computer Science & Engineering — 3rd Year"
         self.location     = "Bengaluru, India 🇮🇳"
@@ -65,9 +81,7 @@ class Yeshwanth:
         return "Engineer who builds things that think & things that move."
 ```
 
-<div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
 
 ---
 
@@ -83,7 +97,9 @@ class Yeshwanth:
 
 ### 🤖 AI / ML
 <img src="https://skillicons.dev/icons?i=tensorflow,sklearn,pytorch&theme=dark&perline=7"/>
+
 <br/>
+
 <img src="https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Random_Forest-4CAF50?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white"/>
@@ -93,24 +109,26 @@ class Yeshwanth:
 
 ### 🔩 Systems & Embedded
 <img src="https://skillicons.dev/icons?i=c,cpp,java,arduino&theme=dark&perline=7"/>
+
 <br/>
+
 <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
 <img src="https://img.shields.io/badge/ARM_Assembly-0091BD?style=for-the-badge&logo=arm&logoColor=white"/>
 <img src="https://img.shields.io/badge/BLE-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white"/>
-<img src="https://img.shields.io/badge/GSM-EC200U-43A047?style=for-the-badge&logo=qualcomm&logoColor=white"/>
+<img src="https://img.shields.io/badge/GSM_EC200U-43A047?style=for-the-badge&logo=qualcomm&logoColor=white"/>
 
 ### 🛠️ Tools & Platforms
 <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,postman,vercel,linux&theme=dark&perline=7"/>
+
 <br/>
+
 <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white"/>
 <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white"/>
 <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logo=databricks&logoColor=white"/>
 
 </div>
 
-<div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
 
 ---
 
@@ -125,15 +143,13 @@ class Yeshwanth:
 | **🌍 FairLens** | Detects social, behavioral & ideological AI bias | React, FastAPI, AIF360, Gemini API |
 | **🛡️ GRC — Kill the CAPTCHA** | Real-time CAPTCHA risk scoring browser extension | Chrome MV3, JavaScript |
 | **🪐 Planetary Rover Sim** | Self-learning rover on Moon & Mars with A* + sensor fusion | Three.js, Cannon.js, TensorFlow.js |
-| **🚗 Driver Drowsiness Detection** | Edge ML drowsiness system + ESP32 LEDs + mobile dashboard | MediaPipe, ONNX, FastAPI, React Native |
+| **🚗 Driver Drowsiness Detection** | Edge ML drowsiness + ESP32 LEDs + mobile dashboard | MediaPipe, ONNX, FastAPI, React Native |
 | **📄 Talk-to-PDF** | RAG-based PDF Q&A assistant | Cohere, ChromaDB, LangChain, Streamlit |
 | **🔐 ESP32 BLE Access Control** | Fingerprint + BLE + GSM + I2C LCD hardware security system | ESP32, C++, GSM EC200U |
 
 </div>
 
-<div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
 
 ---
 
@@ -141,13 +157,19 @@ class Yeshwanth:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=the-yesh21&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020024&title_color=00d4ff&icon_color=00d4ff&text_color=ffffff&border_radius=12" width="48%"/>
+<a href="https://github.com/the-yesh21">
+  <img src="https://github-readme-stats.vercel.app/api?username=the-yesh21&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020024&title_color=00d4ff&icon_color=00d4ff&text_color=ffffff&border_radius=12&count_private=true" width="48%"/>
+</a>
 &nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=the-yesh21&theme=tokyonight&hide_border=true&background=020024&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&border_radius=12" width="48%"/>
+<a href="https://github.com/the-yesh21">
+  <img src="https://streak-stats.demolab.com/?user=the-yesh21&theme=tokyonight&hide_border=true&background=020024&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&border_radius=12" width="48%"/>
+</a>
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=the-yesh21&layout=compact&theme=tokyonight&hide_border=true&bg_color=020024&title_color=00d4ff&text_color=ffffff&border_radius=12&langs_count=10" width="50%"/>
+<a href="https://github.com/the-yesh21">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=the-yesh21&layout=compact&theme=tokyonight&hide_border=true&bg_color=020024&title_color=00d4ff&text_color=ffffff&border_radius=12&langs_count=10" width="50%"/>
+</a>
 
 </div>
 
@@ -156,9 +178,7 @@ class Yeshwanth:
 ## 🌌 Contribution Galaxy
 
 <div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=the-yesh21&bg_color=020024&color=00d4ff&line=090979&point=00d4ff&area=true&area_color=090979&hide_border=true&radius=12" width="98%"/>
-
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=the-yesh21&bg_color=020024&color=00d4ff&line=0d47a1&point=00d4ff&area=true&area_color=0d47a1&hide_border=true&radius=12" width="98%"/>
 </div>
 
 ---
@@ -169,9 +189,7 @@ class Yeshwanth:
 <img src="https://github-profile-trophy.vercel.app/?username=the-yesh21&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7"/>
 </div>
 
-<div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
 
 ---
 
@@ -181,7 +199,7 @@ class Yeshwanth:
 
 ```
 ╔══════════════════════════════════════════════════════╗
-║  🌌 MISSION CONTROL — YESHWANTH                      ║
+║  🌌 MISSION CONTROL — YESHWANTH V.                   ║
 ╠══════════════════════════════════════════════════════╣
 ║  🎯 Seeking SWE / AI-ML Internship        [ ACTIVE ] ║
 ║  💼 Freelance Web Dev Pipeline            [ ACTIVE ] ║
@@ -200,7 +218,7 @@ class Yeshwanth:
 <div align="center">
 
 <a href="mailto:yeshwanth9750@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-yeshwanth9750-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gmail-yeshwanth9750%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 &nbsp;
 <a href="https://linkedin.com/in/the-yesh21">
@@ -217,14 +235,14 @@ class Yeshwanth:
 
 <br/>
 
-<!-- SNAKE CONTRIBUTION GRAPH -->
+<!-- SNAKE CONTRIBUTION GRAPH — needs GitHub Action (see below) -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/the-yesh21/the-yesh21/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/the-yesh21/the-yesh21/output/github-contribution-grid-snake.svg"/>
-  <img alt="github-snake" src="https://raw.githubusercontent.com/the-yesh21/the-yesh21/output/github-contribution-grid-snake-dark.svg"/>
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/the-yesh21/the-yesh21/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
 
 </div>
 
-<!-- ANIMATED FOOTER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,60:090979,100:020024&height=120&section=footer&animation=fadeIn" width="100%"/>
+<!-- ANIMATED FOOTER WAVE -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,100:020024&height=120&section=footer&animation=fadeIn" width="100%"/>
