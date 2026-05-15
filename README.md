@@ -130,17 +130,13 @@ class Yeshwanth:
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
 <a href="https://github.com/the-yesh21">
   <img src="https://github-readme-stats.vercel.app/api?username=the-yesh21&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020024&title_color=00d4ff&icon_color=00d4ff&text_color=ffffff&border_radius=12&count_private=true" width="48%"/>
 </a>
-
+&nbsp;
+<a href="https://github.com/the-yesh21">
+  <img src="https://streak-stats.demolab.com/?user=the-yesh21&theme=tokyonight&hide_border=true&background=020024&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&border_radius=12" width="48%"/>
 </a>
-
-</div>
 
 ---
 
