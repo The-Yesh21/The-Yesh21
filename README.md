@@ -3,16 +3,7 @@
 
 <!-- ANIMATED GALAXY WAVE TOP -->
 <!-- MAC STYLE NAME — using Apple-inspired SF Pro feel via Google Fonts -->
-<picture>
-  <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=700&size=52&pause=99999&color=F5F5F7&center=true&vCenter=true&width=600&height=80&lines=Yeshwanth+V." alt="Yeshwanth V."/>
-</picture>
 
-<!-- SUBTITLE MAC STYLE -->
-<picture>
-  <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Text&weight=400&size=18&pause=99999&color=A1A1A6&center=true&vCenter=true&width=600&height=36&lines=Engineer+who+builds+things+that+think+%26+things+that+move." alt="subtitle"/>
-</picture>
-
-<br/>
 
 <!-- BADGE ROW -->
 <img src="https://komarev.com/ghpvc/?username=the-yesh21&label=Profile+Views&color=0891b2&style=for-the-badge" alt="profile views"/>
