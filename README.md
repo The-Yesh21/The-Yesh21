@@ -2,13 +2,6 @@
 <img src="https://raw.githubusercontent.com/the-yesh21/the-yesh21/main/header_banner.svg" width="100%"/>
 
 <!-- ANIMATED GALAXY WAVE TOP -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020024,100:00d4ff&height=160&section=header&animation=fadeIn" width="100%"/>
-
-<!-- TERMINAL / MAC STYLE LOGO BLOCK -->
-<img src="https://img.shields.io/badge/-%F0%9F%9B%B8%20ENGINEER.EXE-000000?style=for-the-badge&logo=apple&logoColor=white&labelColor=1d1d1f" height="40"/>
-
-<br/><br/>
-
 <!-- MAC STYLE NAME — using Apple-inspired SF Pro feel via Google Fonts -->
 <picture>
   <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=700&size=52&pause=99999&color=F5F5F7&center=true&vCenter=true&width=600&height=80&lines=Yeshwanth+V." alt="Yeshwanth V."/>
