@@ -23,11 +23,6 @@
 
 <br/>
 
-<!-- TYPING ROLES ANIMATION -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=🚀+CSE+%40+Dr.+Ambedkar+IT%2C+Bengaluru;🧠+AI+%7C+Full-Stack+%7C+Embedded+Systems;⚙️+Building+systems+that+think+%26+move;🌌+Rover+Sims+•+Legal+AI+•+Stress+Detection;💡+Visionary+Builder+%7C+Open+to+Internships" alt="Typing SVG" />
-
-<br/><br/>
-
 <!-- BADGE ROW -->
 <img src="https://komarev.com/ghpvc/?username=the-yesh21&label=Profile+Views&color=0891b2&style=for-the-badge" alt="profile views"/>
 &nbsp;
