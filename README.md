@@ -1,7 +1,5 @@
 <div align="center">
-
-<!-- TECHY LOGO / BANNER — Mac Style Header -->
-<img src="https://raw.githubusercontent.com/the-yesh21/the-yesh21/main/assets/banner.png" width="0" height="0"/>
+<img src="https://raw.githubusercontent.com/the-yesh21/the-yesh21/main/header_banner.svg" width="100%"/>
 
 <!-- ANIMATED GALAXY WAVE TOP -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020024,100:00d4ff&height=160&section=header&animation=fadeIn" width="100%"/>
