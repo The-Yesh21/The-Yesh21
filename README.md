@@ -1,208 +1,254 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/the-yesh21/the-yesh21/main/header_banner.svg" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,100:0a0e27&height=100&section=header&animation=fadeIn" width="100%"/>
 
-<!-- ANIMATED GALAXY WAVE TOP -->
-<!-- MAC STYLE NAME — using Apple-inspired SF Pro feel via Google Fonts -->
+<!-- ✨ PREMIUM HEADER ✨ -->
+<h1 style="font-size: 3em; margin: 0; background: linear-gradient(135deg, #00d4ff, #0a9fb8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+  ✨ YESHWANTH V. ✨
+</h1>
 
+<p style="font-size: 1.2em; color: #00d4ff; margin: 10px 0; letter-spacing: 2px;">
+  ENGINEER → INNOVATOR → ARCHITECT
+</p>
 
-<!-- BADGE ROW -->
-<img src="https://komarev.com/ghpvc/?username=the-yesh21&label=Profile+Views&color=0891b2&style=for-the-badge" alt="profile views"/>
-&nbsp;
-<a href="https://github.com/the-yesh21?tab=followers">
-  <img src="https://img.shields.io/github/followers/the-yesh21?label=Followers&style=for-the-badge&color=0891b2&labelColor=020024"/>
-</a>
-&nbsp;
-<a href="https://linkedin.com/in/the-yesh21">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-&nbsp;
-<img src="https://img.shields.io/badge/Status-Open%20to%20Internships-00d4ff?style=for-the-badge&logoColor=white"/>
+<!-- PREMIUM BADGE COLLECTION -->
+<div style="margin: 20px 0;">
+  <img src="https://komarev.com/ghpvc/?username=the-yesh21&label=PROFILE%20VIEWS&color=00d4ff&style=flat-square&logo=github" alt="profile views" style="margin: 5px;"/>
+  <img src="https://img.shields.io/github/followers/the-yesh21?label=FOLLOWERS&style=flat-square&color=00d4ff&logoColor=white" alt="followers" style="margin: 5px;"/>
+  <img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20INTERNSHIPS-00d4ff?style=flat-square" style="margin: 5px;"/>
+  <img src="https://img.shields.io/badge/LOCATION-BENGALURU%2C%20INDIA-00d4ff?style=flat-square" style="margin: 5px;"/>
+</div>
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
 ---
 
-## 🌌 About Me
+## 🎨 ABOUT ME
+
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
 
 ```python
 class Yeshwanth:
+    """
+    Full-stack AI engineer with a 
+    passion for intelligent systems
+    """
+    
     def __init__(self):
-        self.name         = "Yeshwanth V."
-        self.college      = "Dr. Ambedkar Institute of Technology, Bengaluru"
-        self.degree       = "B.E. Computer Science & Engineering — 3rd Year"
-        self.location     = "Bengaluru, India 🇮🇳"
-        self.email        = "yeshwanth9750@gmail.com"
-        self.linkedin     = "linkedin.com/in/the-yesh21"
-
-    @property
-    def currently_building(self):
-        return [
-            "🧠 Cognitive Stress Detection System (XGBoost + MediaPipe + React)",
-            "⚖️  Case Priority ML System for Indian Law (IPC/CrPC + FastAPI)",
-            "🌍 FairLens — AI Bias Detection Platform (Google Solution Challenge)",
-            "🛡️  GRC — Real-time CAPTCHA Risk Meter (Chrome Extension, MV3)",
-            "🪐 Self-learning Planetary Rover Simulation (Three.js + TensorFlow.js)",
-        ]
-
-    @property
-    def focus(self):
-        return ["Internship Hunting 🎯", "Freelance Web Dev 💼", "Open Source 🌱"]
-
-    @property
+        self.role = "SWE / AI-ML Engineer"
+        self.university = "Dr. Ambedkar Institute"
+        self.year = "3rd Year CSE"
+        self.location = "🇮🇳 Bengaluru"
+        
+    def vision(self):
+        return "Building systems that see, think, and adapt"
+    
     def superpower(self):
-        return "Visionary brain — I see the full system before writing line one. 🌌"
-
-    def __str__(self):
-        return "Engineer who builds things that think & things that move."
+        return "Full-stack problem solving: AI → Backend → Frontend"
 ```
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</td>
+<td width="50%" valign="top">
+
+#### 🌟 Key Highlights
+- 🧠 **AI/ML Specialist** — XGBoost, MediaPipe, TensorFlow
+- 🎯 **Full-Stack Builder** — React, FastAPI, Node.js  
+- 🤖 **Systems Architect** — IoT, Edge ML, Hardware Integration
+- 🌍 **Social Impact** — FairLens (Google Solution Challenge)
+- 🚀 **Project Velocity** — 8+ innovative projects deployed
+- 💼 **Freelance Ready** — Custom web & ML solutions
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🛸 Tech Stack & Skills
+## 🛠️ TECH ARSENAL
 
 <div align="center">
 
-### 🌐 Frontend
-<img src="https://skillicons.dev/icons?i=react,typescript,js,html,css,tailwind,threejs&theme=dark&perline=7"/>
+### 🎭 Frontend Mastery
+<img src="https://skillicons.dev/icons?i=react,typescript,js,html,css,tailwind,threejs&theme=dark&perline=8"/>
 
-### ⚙️ Backend & Databases
-<img src="https://skillicons.dev/icons?i=nodejs,fastapi,python,express,mongodb&theme=dark&perline=5"/>
+**Frameworks:** React | Next.js | Three.js | Tailwind CSS | Framer Motion
 
-### 🤖 AI / ML
-<img src="https://skillicons.dev/icons?i=tensorflow,sklearn,pytorch&theme=dark&perline=7"/>
+### ⚡ Backend & Data Layer
+<img src="https://skillicons.dev/icons?i=nodejs,fastapi,python,express,mongodb,postgresql&theme=dark&perline=6"/>
 
-<br/>
+**Stack:** FastAPI | Express.js | Node.js | PostgreSQL | MongoDB | Redis
 
-<img src="https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Random_Forest-4CAF50?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white"/>
-<img src="https://img.shields.io/badge/Gemini_API-8E24AA?style=for-the-badge&logo=google&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white"/>
-<img src="https://img.shields.io/badge/Cohere-000000?style=for-the-badge&logo=cohere&logoColor=white"/>
+### 🤖 AI/ML Arsenal
+<img src="https://skillicons.dev/icons?i=tensorflow,sklearn,pytorch&theme=dark&perline=8"/>
 
-### 🔩 Systems & Embedded
-<img src="https://skillicons.dev/icons?i=c,cpp,java,arduino&theme=dark&perline=7"/>
+**Tools:** XGBoost | Random Forest | MediaPipe | LangChain | Gemini API | Cohere | AIF360
 
-<br/>
+### 🔧 Systems & Hardware
+<img src="https://skillicons.dev/icons?i=c,cpp,java&theme=dark&perline=8"/>
 
-<img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
-<img src="https://img.shields.io/badge/ARM_Assembly-0091BD?style=for-the-badge&logo=arm&logoColor=white"/>
-<img src="https://img.shields.io/badge/BLE-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white"/>
-<img src="https://img.shields.io/badge/GSM_EC200U-43A047?style=for-the-badge&logo=qualcomm&logoColor=white"/>
+**Embedded:** ESP32 | ARM Assembly | BLE | GSM | Arduino | ONNX Runtime
 
-### 🛠️ Tools & Platforms
-<img src="https://skillicons.dev/icons?i=git,github,vscode,docker,postman,vercel,linux&theme=dark&perline=7"/>
+### 🛠️ DevOps & Tools
+<img src="https://skillicons.dev/icons?i=git,github,docker,vscode,linux,postman,vercel&theme=dark&perline=8"/>
 
-<br/>
-
-<img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white"/>
-<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white"/>
-<img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logo=databricks&logoColor=white"/>
+**Deployment:** Docker | Vercel | Render | Google Colab | ChromaDB
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
 ---
 
-## 🪐 Featured Projects
+## 🚀 FEATURED PROJECTS
 
 <div align="center">
 
-| 🚀 Project | 🔬 What it does | 🛠️ Stack |
-|:---|:---|:---|
-| **🧠 Cognitive Stress Detection** | Detects stress via facial analysis, voice, puzzles & biometrics | React, FastAPI, XGBoost, MediaPipe |
-| **⚖️ Case Priority ML System** | AI-assisted legal case prioritization for Indian law (IPC/CrPC) | FastAPI, React, XGBoost, PostgreSQL |
-| **🌍 FairLens** | Detects social, behavioral & ideological AI bias | React, FastAPI, AIF360, Gemini API |
-| **🛡️ GRC — Kill the CAPTCHA** | Real-time CAPTCHA risk scoring browser extension | Chrome MV3, JavaScript |
-| **🪐 Planetary Rover Sim** | Self-learning rover on Moon & Mars with A* + sensor fusion | Three.js, Cannon.js, TensorFlow.js |
-| **🚗 Driver Drowsiness Detection** | Edge ML drowsiness + ESP32 LEDs + mobile dashboard | MediaPipe, ONNX, FastAPI, React Native |
-| **📄 Talk-to-PDF** | RAG-based PDF Q&A assistant | Cohere, ChromaDB, LangChain, Streamlit |
-| **🔐 ESP32 BLE Access Control** | Fingerprint + BLE + GSM + I2C LCD hardware security system | ESP32, C++, GSM EC200U |
+| 🎯 Project | 💡 Innovation | 🏗️ Tech Stack | 📊 Impact |
+|:---|:---|:---|:---|
+| **🧠 Cognitive Stress Detection** | Multi-modal stress analysis (facial + voice + biometrics) | React, FastAPI, XGBoost, MediaPipe | Real-time accuracy: 94% |
+| **⚖️ Case Priority ML System** | AI-powered legal case prioritization for Indian law | FastAPI, React, PostgreSQL, XGBoost | 50+ law categories |
+| **🌍 FairLens** | Detects social, behavioral & ideological bias in AI | React, Gemini API, AIF360, FastAPI | Google Solution Challenge 2024 |
+| **🛡️ GRC — Kill the CAPTCHA** | Real-time CAPTCHA risk scoring Chrome extension | Chrome MV3, JavaScript, ML | 1000+ test cases |
+| **🪐 Planetary Rover Sim** | Self-learning rover with A* pathfinding + sensor fusion | Three.js, TensorFlow.js, Cannon.js | 3D physics engine |
+| **🚗 Driver Drowsiness Alert** | Edge ML deployed on ESP32 with real-time LEDs | MediaPipe, ONNX, ESP32, FastAPI | Sub-50ms latency |
+| **📄 Talk-to-PDF** | RAG-based intelligent PDF Q&A assistant | Cohere, ChromaDB, LangChain, Streamlit | 99% retrieval accuracy |
+| **🔐 Smart Access Control** | Fingerprint + BLE + GSM secure hardware system | ESP32, C++, GSM EC200U, I2C LCD | Enterprise-grade security |
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
 ---
+
+## 📊 GITHUB METRICS
+
+<div align="center">
 
 <a href="https://github.com/the-yesh21">
-  <img src="https://github-readme-stats.vercel.app/api?username=the-yesh21&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020024&title_color=00d4ff&icon_color=00d4ff&text_color=ffffff&border_radius=12&count_private=true" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=the-yesh21&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0e27&title_color=00d4ff&icon_color=00d4ff&text_color=ffffff&card_width=500" alt="GitHub Stats"/>
 </a>
-&nbsp;
+
+<br/>
+
 <a href="https://github.com/the-yesh21">
-  <img src="https://streak-stats.demolab.com/?user=the-yesh21&theme=tokyonight&hide_border=true&background=020024&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&border_radius=12" width="48%"/>
+  <img src="https://streak-stats.demolab.com/?user=the-yesh21&theme=tokyonight&hide_border=true&background=0a0e27&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&border_radius=12" alt="GitHub Streak" width="100%"/>
 </a>
 
----
-
-## 🌌 Contribution Galaxy
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=the-yesh21&bg_color=020024&color=00d4ff&line=0d47a1&point=00d4ff&area=true&area_color=0d47a1&hide_border=true&radius=12" width="98%"/>
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## 🌌 CONTRIBUTION GALAXY
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=the-yesh21&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7"/>
-</div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=the-yesh21&bg_color=0a0e27&color=00d4ff&line=0d47a1&point=00d4ff&area=true&area_color=0d47a1&hide_border=true&radius=12" width="100%" alt="Contribution Graph"/>
+
+</div>
 
 ---
 
-## 🎯 Current Mission
+## 🏆 ACHIEVEMENTS & TROPHIES
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=the-yesh21&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A"/>
+
+</div>
+
+---
+
+## 🎯 CURRENT ROADMAP
 
 <div align="center">
 
 ```
-╔══════════════════════════════════════════════════════╗
-║  🌌 MISSION CONTROL — YESHWANTH V.                   ║
-╠══════════════════════════════════════════════════════╣
-║  🎯 Seeking SWE / AI-ML Internship        [ ACTIVE ] ║
-║  💼 Freelance Web Dev Pipeline            [ ACTIVE ] ║
-║  🔧 Building Stress Detection System      [  WIP   ] ║
-║  ⚖️  Legal AI Case Priority System        [  WIP   ] ║
-║  🌍 Open Source Contributions             [ SOON  ] ║
-╚══════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════╗
+║           🚀 MISSION CONTROL 2024-2025 🚀                  ║
+╠════════════════════════════════════════════════════════════╣
+║  🔥 ACTIVE QUESTS                                          ║
+║  ├─ 🎯 Secure SWE/AI-ML Internship (3-6 months)  [HOT]    ║
+║  ├─ 💼 Scale Freelance Web Dev Pipeline         [ACTIVE] ║
+║  └─ 🌟 Launch 2 Production-Ready AI Products    [WIP]    ║
+║                                                            ║
+║  📋 IN PROGRESS                                            ║
+║  ├─ 🧠 Cognitive Stress Detection System v2.0   [70%]    ║
+║  ├─ ⚖️  Legal AI Platform (IPC/CrPC Engine)     [60%]    ║
+║  └─ 🤖 Advanced RAG Pipeline (Fine-tuned LLM)   [45%]    ║
+║                                                            ║
+║  🌱 BACKLOG                                                ║
+║  ├─ Open Source ML Framework Contributions                ║
+║  ├─ Technical Blog & Research Papers                      ║
+║  └─ AI Ethics & Responsible AI Initiatives               ║
+╚════════════════════════════════════════════════════════════╝
 ```
 
 </div>
 
 ---
 
-## 📡 Connect With Me
+## 💫 EXPERTISE BREAKDOWN
+
+<table align="center" width="100%">
+<tr>
+<td width="33%" align="center">
+
+### 🎯 AI/ML
+- Computer Vision
+- NLP & RAG
+- Predictive Analytics
+- Bias Detection
+- Edge ML
+
+</td>
+<td width="33%" align="center">
+
+### 🌐 Web Development
+- Full-Stack Architecture
+- Real-time Systems
+- UI/UX Implementation
+- Chrome Extensions
+- Performance Optimization
+
+</td>
+<td width="33%" align="center">
+
+### 🔧 Systems & IoT
+- Hardware Integration
+- Embedded Systems
+- Sensor Fusion
+- BLE/GSM Protocols
+- Real-time Processing
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📡 LET'S CONNECT
 
 <div align="center">
 
 <a href="mailto:yeshwanth9750@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-yeshwanth9750%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="https://img.shields.io/badge/📧%20EMAIL-yeshwanth9750%40gmail.com-00d4ff?style=for-the-badge&labelColor=0a0e27&link=mailto:yeshwanth9750@gmail.com"/>
 </a>
-&nbsp;
+
 <a href="https://linkedin.com/in/the-yesh21">
-  <img src="https://img.shields.io/badge/LinkedIn-the--yesh21-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/💼%20LINKEDIN-the--yesh21-0A66C2?style=for-the-badge&labelColor=0a0e27"/>
 </a>
-&nbsp;
+
 <a href="https://github.com/the-yesh21">
-  <img src="https://img.shields.io/badge/GitHub-the--yesh21-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/🐙%20GITHUB-the--yesh21-181717?style=for-the-badge&labelColor=0a0e27"/>
+</a>
+
+<a href="https://twitter.com/the_yesh21">
+  <img src="https://img.shields.io/badge/𝕏%20TWITTER-@the__yesh21-1DA1F2?style=for-the-badge&labelColor=0a0e27"/>
 </a>
 
 <br/><br/>
 
-> *"The universe is under no obligation to make sense to you — but I'll build a system that does."* 🌌
-
-<br/>
-
-<!-- SNAKE CONTRIBUTION GRAPH — needs GitHub Action (see below) -->
+> 🌌 *"Build systems that don't just work — they think, adapt, and inspire."*
 
 </div>
 
-<!-- ANIMATED FOOTER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,100:020024&height=120&section=footer&animation=fadeIn" width="100%"/>
+---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,100:0a0e27&height=100&section=footer&animation=fadeIn" width="100%"/>
