@@ -13,7 +13,7 @@
    ╚═╝   ╚══════╝╚══════╝╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1200&color=00D4FF&center=true&vCenter=true&width=600&lines=Full-Stack+%2B+AI-ML+Engineer;Systems+Architect+%7C+3rd+Year+CSE;Building+systems+that+think+%26+adapt;React+%E2%86%92+FastAPI+%E2%86%92+ML+%E2%86%92+Hardware;Bengaluru%2C+India+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1200&color=00D4FF&center=true&vCenter=true&width=600&lines=Full-Stack+%2B+AI-ML+Engineer;Systems+Architect+%7C+4th+Year+CSE;Building+systems+that+think+%26+adapt;React+%E2%86%92+FastAPI+%E2%86%92+ML+%E2%86%92+Hardware;Bengaluru%2C+India+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG" />
 
 <br/>
 
