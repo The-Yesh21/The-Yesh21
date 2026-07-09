@@ -176,7 +176,7 @@ class Yeshwanth:
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=the-yesh21&theme=tokyonight&hide_border=true&background=020024&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&sideLabels=00d4ff&dates=a0a0b0&border_radius=12" width="100%"/>
+<img src="./profile/streak.svg" width="100%" alt="GitHub Streak"/>
 
 </div>
 
