@@ -213,7 +213,7 @@ class Yeshwanth:
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=the-yesh21&theme=tokyonight&hide_border=true&background=020024&ring=00d4ff&fire=00d4ff&currStreakLabel=00d4ff" width="100%" alt="GitHub Streak"/>
+<img src="https://github-readme-streak-stats-eight.vercel.app?user=the-yesh21&theme=tokyonight&hide_border=true&background=020024&ring=00d4ff&fire=00d4ff&currStreakLabel=00d4ff" width="100%" alt="GitHub Streak"/>
 
 </div>
 
