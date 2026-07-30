@@ -207,12 +207,6 @@ class Yeshwanth:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=the-yesh21&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020024&title_color=00d4ff&icon_color=00d4ff&text_color=ffffff&ring_color=00d4ff" height="180"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=the-yesh21&layout=compact&theme=tokyonight&hide_border=true&bg_color=020024&title_color=00d4ff&text_color=ffffff&langs_count=8" height="180"/>
-
-<br/><br/>
-
 <img src="https://github-readme-streak-stats-eight.vercel.app?user=the-yesh21&theme=tokyonight&hide_border=true&background=020024&ring=00d4ff&fire=00d4ff&currStreakLabel=00d4ff" width="100%" alt="GitHub Streak"/>
 
 </div>
