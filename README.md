@@ -13,13 +13,14 @@
    ╚═╝   ╚══════╝╚══════╝╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1200&color=00D4FF&center=true&vCenter=true&width=600&lines=Full-Stack+%2B+AI-ML+Engineer;Systems+Architect+%7C+4th+Year+CSE;Building+systems+that+think+%26+adapt;React+%E2%86%92+FastAPI+%E2%86%92+ML+%E2%86%92+Hardware;Bengaluru%2C+India+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1200&color=00D4FF&center=true&vCenter=true&width=600&lines=Full-Stack+%2B+AI-ML+Engineer;SWE+Intern+%7C+Final+Year+CSE;Co-Founder+%40+NearBy;Building+systems+that+think+%26+adapt;React+%E2%86%92+FastAPI+%E2%86%92+ML+%E2%86%92+Hardware;Bengaluru%2C+India+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG" />
 
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=the-yesh21&label=PROFILE+VIEWS&color=00d4ff&style=flat-square"/>
 <img src="https://img.shields.io/github/followers/the-yesh21?label=FOLLOWERS&style=flat-square&color=00d4ff"/>
-<img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20INTERNSHIPS-brightgreen?style=flat-square"/>
+<img src="https://img.shields.io/badge/STATUS-SWE%20INTERN-brightgreen?style=flat-square"/>
+<img src="https://img.shields.io/badge/CO--FOUNDER-NearBy-orange?style=flat-square"/>
 <img src="https://img.shields.io/badge/STACK-Full--Stack%20%2B%20AI--ML-00d4ff?style=flat-square"/>
 
 </div>
@@ -35,19 +36,20 @@
 ```python
 class Yeshwanth:
     """
-    CSE undergrad who builds things across
-    the full stack — from browser to silicon.
+    Final-year CSE undergrad who builds things
+    across the full stack — from browser to silicon.
     """
-    role        = "SWE / AI-ML Engineer"
+    role        = "SWE Intern / AI-ML Engineer"
     university  = "Dr. Ambedkar Institute of Technology"
-    year        = "3rd Year CSE, Bengaluru 🇮🇳"
+    year        = "Final Year CSE, Bengaluru 🇮🇳"
     stacks      = ["React", "FastAPI", "ML/CV", "Embedded C++"]
-    
+
     currently   = [
-        "🎵 Building EchoTune — personal music web app",
-        "📧 Shipping MailPulse — AI email triage tool",
-        "🚗 Deploying drowsiness detection to edge",
-        "💼 Open to SWE / AI-ML internships",
+        "💼 SWE Intern — building PaddleOCR pipeline",
+        "   for APMC handwritten bill extraction",
+        "🏥 Co-Founder @ NearBy — medical delivery platform",
+        "✅ Shipped EchoTune (music app, Android APK)",
+        "✅ Shipped MailPulse (AI email triage assistant)",
     ]
 
     def philosophy(self):
@@ -88,12 +90,12 @@ class Yeshwanth:
 ### Backend & Data
 <img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,python,mongodb,postgresql,redis&theme=dark&perline=8"/>
 
-`FastAPI` &nbsp;`Express.js` &nbsp;`Firebase` &nbsp;`PostgreSQL` &nbsp;`MongoDB` &nbsp;`ChromaDB`
+`FastAPI` &nbsp;`Express.js` &nbsp;`Firebase` &nbsp;`Supabase` &nbsp;`PostgreSQL` &nbsp;`MongoDB` &nbsp;`ChromaDB`
 
 ### AI / ML
 <img src="https://skillicons.dev/icons?i=tensorflow,sklearn,pytorch&theme=dark&perline=8"/>
 
-`XGBoost` &nbsp;`MediaPipe` &nbsp;`ONNX Runtime` &nbsp;`LangChain` &nbsp;`Gemini API` &nbsp;`Cohere` &nbsp;`AIF360` &nbsp;`Groq`
+`XGBoost` &nbsp;`PaddleOCR` &nbsp;`Tesseract` &nbsp;`MediaPipe` &nbsp;`ONNX Runtime` &nbsp;`LangChain` &nbsp;`Gemini API` &nbsp;`Cohere` &nbsp;`AIF360` &nbsp;`Groq`
 
 ### Systems & Hardware
 <img src="https://skillicons.dev/icons?i=c,cpp,java,arduino&theme=dark&perline=8"/>
@@ -121,23 +123,58 @@ class Yeshwanth:
 <tr>
 <td width="50%" valign="top">
 
-#### 🎵 EchoTune
+#### 🏥 NearBy — *Co-Founder*
+> Medical delivery platform — building the tech stack from the ground up
+
+- On-demand medicine/medical supply delivery
+- Full-stack build in progress
+- Early-stage, actively iterating on product & architecture
+
+`React` `FastAPI` `Full-Stack` `Startup`
+
+</td>
+<td width="50%" valign="top">
+
+#### 🧾 APMC OCR Pipeline — *Internship Project*
+> Handwritten Kannada APMC ledger digitization at scale
+
+- PaddleOCR + Tesseract hybrid extraction pipeline
+- Solving handwritten Arabic numeral recognition gaps
+- Flask reviewer UI + Supabase active-learning loop
+
+`PaddleOCR` `Tesseract` `Flask` `Supabase` `OpenCV`
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### 🟢 SHIPPED
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🎵 EchoTune ✅
 > Personal music web app — React/Vite + JioSaavn API
 
-- Web Audio API signal chain for quality control
-- Mobile-stable playback + Capacitor Android APK
-- Offline-first architecture in progress
+- Web Audio API signal chain for playback quality
+- Stable mobile playback + Capacitor Android APK
+- Native foreground service for notification controls
 
 `React` `Vite` `Web Audio API` `Capacitor`
 
 </td>
 <td width="50%" valign="top">
 
-#### 📧 MailPulse
+#### 📧 MailPulse ✅
 > AI email triage assistant with voice digest
 
 - Gmail OAuth2 + Groq (llama-3.1-8b-instant)
-- Kokoro TTS / ElevenLabs for audio summaries
+- Kokoro TTS for audio summaries
 - Firebase Firestore caching layer
 
 `FastAPI` `React` `Groq API` `Firebase` `HuggingFace`
@@ -159,10 +196,10 @@ class Yeshwanth:
 | 🌍 **FairLens** | Detects social, behavioral & ideological bias in AI | React, Gemini API, AIF360, NetworkX | Google Solution Challenge |
 | 🛡️ **GRC — Kill the CAPTCHA** | Real-time CAPTCHA risk scoring Chrome extension | Chrome MV3, JS, Additive ML scoring | 1000+ test cases |
 | 🪐 **ARTEMIS Rover Sim** | Self-learning rover, A* pathfinding + sensor fusion | Three.js, TensorFlow.js, Cannon.js | Full 3D physics engine |
-| 🚗 **Driver Drowsiness Alert** | Edge ML on ESP32 with state-machine blink detection | MediaPipe, ONNX, ESP32, FastAPI | Sub-50ms latency |
+| 🚗 **Driver Drowsiness Alert (Veyron)** | Edge ML on ESP32 with state-machine blink detection | MediaPipe, ONNX, ESP32, FastAPI | Sub-50ms latency |
 | 📄 **Talk-to-PDF** | RAG-based intelligent PDF Q&A | Cohere, ChromaDB, LangChain, Streamlit | 99% retrieval accuracy |
 | 🔐 **Smart Access Control** | Fingerprint + BLE + GSM secure hardware system | ESP32, C++, GSM EC200U, I2C LCD | Enterprise-grade auth |
-| 🎓 **Alma** | AI-powered LMS platform — pitching to real clients | React, FastAPI, Gemini API | Active client pipeline |
+| 🎓 **Alma** | AI-powered LMS platform — pitched to real clients | React, FastAPI, Gemini API | Active client pipeline |
 
 ---
 
@@ -176,7 +213,7 @@ class Yeshwanth:
 
 <br/><br/>
 
-<img src="./profile/streak.svg" width="100%" alt="GitHub Streak"/>
+<img src="https://streak-stats.demolab.com?user=the-yesh21&theme=tokyonight&hide_border=true&background=020024&ring=00d4ff&fire=00d4ff&currStreakLabel=00d4ff" width="100%" alt="GitHub Streak"/>
 
 </div>
 
@@ -202,23 +239,27 @@ class Yeshwanth:
 
 ```
 ╔══════════════════════════════════════════════════════════════════╗
-║                  MISSION CONTROL — 2025                         ║
+║                  MISSION CONTROL — 2026                          ║
 ╠══════════════════════════════════════════════════════════════════╣
 ║  🔥  ACTIVE                                                      ║
-║  ├── EchoTune v1 → Android APK release             [85%] ████▒  ║
-║  ├── MailPulse → Production deploy + Premium UI    [70%] ███▒▒  ║
-║  ├── Drowsiness Detection → React Native mobile    [55%] ██▒▒▒  ║
-║  └── Alma LMS → First paying client               [60%] ███▒▒  ║
-║                                                                  ║
+║  ├── SWE Internship → PaddleOCR APMC bill extraction             ║
+║  ├── NearBy → Building MVP for medical delivery       [Co-Founder]║
+║  ├── CIF 2026 Hackathon → ConsentFlow (DPDP)          [Phase 1]   ║
+║  └── Full-time SWE new-grad role search               [ACTIVE]   ║
+║                                                                   ║
+║  ✅  SHIPPED                                                     ║
+║  ├── EchoTune → Android APK live                       [DONE]    ║
+║  └── MailPulse → Production deployed                   [DONE]    ║
+║                                                                   ║
 ║  📋  QUEUED                                                      ║
-║  ├── Secure SWE / AI-ML Internship (3-6 months)                 ║
-║  ├── Legal AI Platform → Public beta                            ║
-║  └── Open-source ML contributions                               ║
-║                                                                  ║
+║  ├── NearBy → First pilot delivery zone                          ║
+║  ├── Legal AI Platform → Public beta                              ║
+║  └── Open-source ML contributions                                ║
+║                                                                   ║
 ║  🌱  BACKLOG                                                     ║
-║  ├── Technical blog — systems + AI write-ups                    ║
-║  ├── Fine-tuned LLM on legal Indian corpus                      ║
-║  └── AI Ethics research paper                                   ║
+║  ├── Technical blog — systems + AI write-ups                     ║
+║  ├── Fine-tuned LLM on legal Indian corpus                       ║
+║  └── AI Ethics research paper                                    ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
 
