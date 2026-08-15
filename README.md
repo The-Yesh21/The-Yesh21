@@ -30,31 +30,9 @@ I don't build to collect technologies. I build to understand systems.
 
 My loop is simple:
 
-        ┌─────────────┐
-        │   OBSERVE   │
-        └──────┬──────┘
-               ↓
-        ┌─────────────┐
-        │    BUILD    │
-        └──────┬──────┘
-               ↓
-        ┌─────────────┐
-        │    TEST     │
-        └──────┬──────┘
-               ↓
-        ┌─────────────┐
-        │    LEARN    │
-        └──────┬──────┘
-               ↓
-        ┌─────────────┐
-        │    SHIP     │
-        └──────┬──────┘
-               ↓
-        ┌─────────────┐
-        │ REPEAT, BUT │
-        │   BETTER    │
-        └──────┬──────┘
-               └───────────────↺
+<p align="center">
+  <img src="./engineering-loop.gif" width="900" alt="Animated engineering philosophy loop: Observe, Build, Test, Learn, Ship, Repeat"/>
+</p>
 
 That philosophy is why my work jumps across AI/ML, full-stack systems, computer vision, embedded hardware, and product engineering.
 
@@ -282,7 +260,7 @@ React · FastAPI · Gemini API
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=the-yesh21&show_icons=true&rank_icon=github&include_all_commits=true&count_private=true&theme=tokyonight&bg_color=050816&title_color=62DAFF&icon_color=62DAFF&text_color=C9D1D9&border_color=15395D" height="175" alt="GitHub stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=the-yesh21&theme=tokyonight&background=050816&ring=62DAFF&fire=FFD166&currStreakLabel=62DAFF&sideLabels=9fe7ff&border=15395D" height="175" alt="GitHub streak"/>
+  <img src="https://streak-stats.demolab.com/?user=the-yesh21&theme=tokyonight&background=050816&ring=62DAFF&fire=FFD166&currStreakLabel=62DAFF&sideLabels=9fe7ff&border=15395D" height="175" alt="GitHub streak"/>
 </p>
 
 <p align="center">
@@ -382,6 +360,14 @@ and leave it better than I found it.
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,30:123c69,65:0b1f3a,100:050816&height=130&section=footer&animation=twinkling" width="100%"/>
 
 <!--
+  Motion notes:
+  - engineering-loop.gif = real animated philosophy loop
+  - capsule-render = animated header/footer
+  - readme-typing-svg = animated hero copy
+  - GitHub stats/activity = live remote-generated images
+  - GitHub README itself cannot run arbitrary CSS/JS hover animations
+  - Use animated GIFs / SVG assets for motion that must survive GitHub sanitization
+
   Design system:
   - Display: Space Grotesk via typing SVG
   - Monospace: system monospace inside code blocks
