@@ -15,17 +15,26 @@ jobs:
       - name: Create assets folder
         run: mkdir -p profile
 
-      - name: Fetch stats card
-        run: curl -s "https://github-readme-stats.vercel.app/api?username=the-yesh21&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&bg_color=050816&title_color=62DAFF&icon_color=62DAFF&text_color=C9D1D9&border_color=15395D" -o profile/stats.svg
+      - name: Generate stats card (self-hosted, calls GitHub API directly)
+        uses: soulteary/github-readme-stats-action@v1.0.0
+        with:
+          card: stats
+          options: 'username=the-yesh21&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&bg_color=050816&title_color=62DAFF&icon_color=62DAFF&text_color=C9D1D9&border_color=15395D'
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate trophies (self-hosted, calls GitHub API directly)
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          username: the-yesh21
+          output_path: profile/trophies.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Fetch streak card
         run: curl -s "https://streak-stats.demolab.com/?user=the-yesh21&theme=tokyonight&background=050816&ring=62DAFF&fire=FFD166&currStreakLabel=62DAFF&sideLabels=9fe7ff&border=15395D" -o profile/streak.svg
 
       - name: Fetch activity graph
         run: curl -s "https://github-readme-activity-graph.vercel.app/graph?username=the-yesh21&bg_color=050816&color=9fe7ff&line=62DAFF&point=FFD166&area=true&hide_border=false&border_color=15395D&radius=10" -o profile/activity-graph.svg
-
-      - name: Fetch trophies
-        run: curl -s "https://github-profile-trophy.vercel.app/?username=the-yesh21&theme=tokyonight&no-frame=true&margin-w=8&column=7" -o profile/trophies.svg
 
       - name: Commit and push
         run: |
