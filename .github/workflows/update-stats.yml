@@ -27,8 +27,8 @@ jobs:
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: the-yesh21
-          output_path: profile/trophies.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          file: profile/trophies.svg
+          token: ${{ secrets.TROPHY_TOKEN }}
 
       - name: Fetch streak card
         run: curl -s "https://streak-stats.demolab.com/?user=the-yesh21&theme=tokyonight&background=050816&ring=62DAFF&fire=FFD166&currStreakLabel=62DAFF&sideLabels=9fe7ff&border=15395D" -o profile/streak.svg
