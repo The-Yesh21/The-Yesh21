@@ -184,20 +184,22 @@ The goal of these projects was not just to finish them. It was to understand the
 ## 📊 07 · The Work Behind the Profile
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=the-yesh21&show_icons=true&rank_icon=github&include_all_commits=true&count_private=true&theme=tokyonight&bg_color=050816&title_color=62DAFF&icon_color=62DAFF&text_color=C9D1D9&border_color=15395D" height="175" alt="GitHub statistics"/>
-  <img src="https://streak-stats.demolab.com/?user=the-yesh21&theme=tokyonight&background=050816&ring=62DAFF&fire=FFD166&currStreakLabel=62DAFF&sideLabels=9fe7ff&border=15395D" height="175" alt="GitHub streak"/>
+  <img src="./profile/stats.svg" height="175" alt="GitHub statistics"/>
+  <img src="./profile/streak.svg" height="175" alt="GitHub streak"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=the-yesh21&bg_color=050816&color=9fe7ff&line=62DAFF&point=FFD166&area=true&hide_border=false&border_color=15395D&radius=10" width="100%" alt="GitHub activity graph"/>
+  <img src="./profile/activity-graph.svg" width="100%" alt="GitHub activity graph"/>
 </p>
 
 <details>
 <summary><b>🏆 GitHub trophies</b></summary>
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=the-yesh21&theme=tokyonight&no-frame=true&margin-w=8&column=7" alt="GitHub trophies"/>
+  <img src="./profile/trophies.svg" alt="GitHub trophies"/>
 </p>
 </details>
+
+<sub><i>Cards above are self-hosted via a scheduled GitHub Action (see <code>.github/workflows/update-stats.yml</code>) to avoid the shared Vercel rate limit — refreshed daily.</i></sub>
 
 <br/>
 
