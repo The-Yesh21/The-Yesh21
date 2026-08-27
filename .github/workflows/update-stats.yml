@@ -46,7 +46,7 @@ jobs:
             -o profile/activity-graph.svg.tmp \
           && mv profile/activity-graph.svg.tmp profile/activity-graph.svg \
           && echo "Activity graph updated successfully" \
-          || (echo "Activity graph fetch failed after retries — keeping previous file" && rm -f profile/activity-graph.svg.tmp)
+          || (echo "Activity graph fetch failed after retries - keeping previous file" && rm -f profile/activity-graph.svg.tmp)
 
       - name: Commit and push
         run: |
