@@ -43,10 +43,15 @@ jobs:
         run: |
           curl -f -s --retry 5 --retry-delay 15 --retry-connrefused \
             "https://github-readme-activity-graph.vercel.app/graph?username=the-yesh21&bg_color=050816&color=9fe7ff&line=62DAFF&point=FFD166&area=true&hide_border=false&border_color=15395D&radius=10" \
-            -o profile/activity-graph.svg.tmp \
-          && mv profile/activity-graph.svg.tmp profile/activity-graph.svg \
-          && echo "Activity graph updated successfully" \
-          || (echo "Activity graph fetch failed after retries - keeping previous file" && rm -f profile/activity-graph.svg.tmp)
+            -o profile/activity-graph.svg.tmp || true
+
+          if [ -s profile/activity-graph.svg.tmp ] && grep -q "<svg" profile/activity-graph.svg.tmp; then
+            mv profile/activity-graph.svg.tmp profile/activity-graph.svg
+            echo "Activity graph updated successfully"
+          else
+            echo "Activity graph fetch returned invalid content - keeping previous file"
+            rm -f profile/activity-graph.svg.tmp
+          fi
 
       - name: Commit and push
         run: |
