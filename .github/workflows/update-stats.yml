@@ -39,7 +39,7 @@ jobs:
           theme: dark
           hide-border: true
 
-      - name: Fetch activity graph (safe: retries, keeps old file if it fails)
+      - name: "Fetch activity graph (safe - retries, keeps old file if it fails)"
         run: |
           curl -f -s --retry 5 --retry-delay 15 --retry-connrefused \
             "https://github-readme-activity-graph.vercel.app/graph?username=the-yesh21&bg_color=050816&color=9fe7ff&line=62DAFF&point=FFD166&area=true&hide_border=false&border_color=15395D&radius=10" \
