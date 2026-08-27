@@ -95,7 +95,7 @@ jobs:
                   raise ValueError("No contribution data returned")
 
               width, height = 1000, 300
-              margin_left, top, bottom = 50, 40, 50
+              margin_left, top, bottom = 70, 40, 50
               plot_w = width - margin_left - 40
               plot_h = height - top - bottom
               max_count = max((c for _, c in last31), default=1) or 1
@@ -125,13 +125,39 @@ jobs:
                   if i % 2 == 0
               )
 
+              # y-axis: 5 evenly spaced ticks from 0 to max_count
+              y_tick_count = 5 if max_count >= 5 else max_count if max_count > 0 else 1
+              y_ticks = []
+              for i in range(y_tick_count + 1):
+                  value = round(max_count * i / y_tick_count)
+                  y_pos = top + plot_h - (value / max_count) * plot_h
+                  y_ticks.append((value, y_pos))
+
+              y_axis_labels = "".join(
+                  f'<text x="{margin_left - 12}" y="{y_pos + 4:.1f}" '
+                  f'font-size="11" fill="#9fe7ff" text-anchor="end">{value}</text>'
+                  for value, y_pos in y_ticks
+              )
+              gridlines = "".join(
+                  f'<line x1="{margin_left}" y1="{y_pos:.1f}" x2="{margin_left + plot_w}" y2="{y_pos:.1f}" '
+                  f'stroke="#15395D" stroke-width="1" stroke-dasharray="4,4"/>'
+                  for value, y_pos in y_ticks
+              )
+              y_axis_title = (
+                  f'<text x="18" y="{top + plot_h / 2:.1f}" font-size="11" fill="#9fe7ff" '
+                  f'text-anchor="middle" transform="rotate(-90 18 {top + plot_h / 2:.1f})">Contributions</text>'
+              )
+
               svg = f"""<svg viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
                 <rect width="100%" height="100%" fill="#050816" rx="10"/>
                 <text x="{width / 2}" y="25" font-size="16" fill="#62DAFF" text-anchor="middle" font-weight="bold">YESHWANTH V's Contribution Graph</text>
+                {gridlines}
                 <path d="{area_path}" fill="#9fe7ff" fill-opacity="0.15"/>
                 <path d="{line_path}" fill="none" stroke="#62DAFF" stroke-width="2"/>
                 {circles}
                 {labels}
+                {y_axis_labels}
+                {y_axis_title}
               </svg>"""
 
               with open("profile/activity-graph.svg.tmp", "w") as f:
