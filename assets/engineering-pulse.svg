@@ -1,0 +1,71 @@
+<svg viewBox="0 0 900 185" width="100%" height="185" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060b19"/>
+      <stop offset="100%" stop-color="#0d172a"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="900" height="185" rx="12" fill="url(#bg)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Subtle Tech Grid -->
+  <path d="M 0 46 H 900 M 0 92 H 900 M 0 138 H 900 M 150 0 V 185 M 300 0 V 185 M 450 0 V 185 M 600 0 V 185 M 750 0 V 185" stroke="#1e293b" stroke-width="0.5" opacity="0.45"/>
+
+  <!-- Main Pipeline Track -->
+  <path id="track" d="M 85 90 L 815 90" stroke="#1e3a5f" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Return Feedback Loop Arc -->
+  <path id="feedback" d="M 815 90 C 815 158, 85 158, 85 90" fill="none" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="6,6" opacity="0.75">
+    <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Traveling Data Pulse (Forward) -->
+  <circle r="5" fill="#38bdf8" filter="url(#glow)">
+    <animateMotion dur="3.6s" repeatCount="indefinite" path="M 85 90 L 815 90"/>
+  </circle>
+
+  <!-- Traveling Telemetry Packet (Feedback Return) -->
+  <circle r="3.5" fill="#00e676" filter="url(#glow)">
+    <animateMotion dur="3.6s" begin="1.8s" repeatCount="indefinite" path="M 815 90 C 815 158, 85 158, 85 90"/>
+  </circle>
+
+  <!-- Pipeline Nodes -->
+  <g font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">
+    <!-- Node 1: OBSERVE -->
+    <circle cx="85" cy="90" r="24" fill="#090d16" stroke="#38bdf8" stroke-width="2"/>
+    <text x="85" y="94" fill="#f8fafc">01</text>
+    <text x="85" y="50" fill="#7dd3fc">OBSERVE</text>
+
+    <!-- Node 2: BUILD -->
+    <circle cx="231" cy="90" r="24" fill="#090d16" stroke="#38bdf8" stroke-width="2"/>
+    <text x="231" y="94" fill="#f8fafc">02</text>
+    <text x="231" y="50" fill="#7dd3fc">BUILD</text>
+
+    <!-- Node 3: TEST -->
+    <circle cx="377" cy="90" r="24" fill="#090d16" stroke="#38bdf8" stroke-width="2"/>
+    <text x="377" y="94" fill="#f8fafc">03</text>
+    <text x="377" y="50" fill="#7dd3fc">TEST</text>
+
+    <!-- Node 4: LEARN -->
+    <circle cx="523" cy="90" r="24" fill="#090d16" stroke="#38bdf8" stroke-width="2"/>
+    <text x="523" y="94" fill="#f8fafc">04</text>
+    <text x="523" y="50" fill="#7dd3fc">LEARN</text>
+
+    <!-- Node 5: SHIP -->
+    <circle cx="669" cy="90" r="24" fill="#090d16" stroke="#00e676" stroke-width="2"/>
+    <text x="669" y="94" fill="#00e676">05</text>
+    <text x="669" y="50" fill="#00e676">SHIP</text>
+
+    <!-- Node 6: REPEAT -->
+    <circle cx="815" cy="90" r="24" fill="#090d16" stroke="#ff9f1c" stroke-width="2"/>
+    <text x="815" y="94" fill="#ff9f1c">∞</text>
+    <text x="815" y="50" fill="#ff9f1c">REPEAT</text>
+
+    <text x="450" y="168" fill="#64748b" font-size="10" letter-spacing="2">CONTINUOUS SYSTEM FEEDBACK TELEMETRY</text>
+  </g>
+</svg>
